@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"module": "ESNext",
+		"declaration": false,
+		"noImplicitAny": false,
+		"removeComments": true,
+		"moduleResolution": "bundler",
+		"noImplicitOverride": true,
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"noImplicitThis": true,
+		"verbatimModuleSyntax": true,
+		"useDefineForClassFields": true,
+		"forceConsistentCasingInFileNames": true,
+		"jsxImportSource": "vue",
+		"jsx": "preserve",
+		"jsxFactory": "h",
+		"jsxFragmentFactory": "Fragment",
+		"noLib": false,
+		"target": "ESNext",
+		"sourceMap": true,
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		// "types": ["vitest/globals"],
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./packages/*"],
+			"@/package": ["./package.json"]
+		}
+	},
+	"exclude": ["**/__tests__", "temp", "*_bak"]
+}
