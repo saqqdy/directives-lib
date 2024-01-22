@@ -9,8 +9,8 @@ dependencies:
     specifier: '>=1.0.0'
     version: 1.7.2(vue@3.4.15)
   js-cool:
-    specifier: ^5.16.0
-    version: 5.16.0
+    specifier: ^5.17.0
+    version: 5.17.0
   tslib:
     specifier: ^2.6.2
     version: 2.6.2
@@ -105,10 +105,10 @@ devDependencies:
     version: 1.4.0
   reinstaller:
     specifier: ^3.0.2
-    version: 3.0.2(debug@4.3.4)(js-cool@5.16.0)(typescript@5.3.3)
+    version: 3.0.2(debug@4.3.4)(js-cool@5.17.0)(typescript@5.3.3)
   rm-all:
     specifier: ^1.1.1
-    version: 1.1.1(js-cool@5.16.0)
+    version: 1.1.1(js-cool@5.17.0)
   rollup:
     specifier: ^4.9.6
     version: 4.9.6
@@ -6696,8 +6696,8 @@ packages:
       use-downloads: 1.5.1
     dev: true
 
-  /js-cool@5.16.0:
-    resolution: {integrity: sha512-SQp42710uXJQL8odo9Lp83nO6wZ5McSdXpnEIe+u8KbX1p3KXMMN/AYq833ah0C0uwsco41y7TeD0almrSVXrw==}
+  /js-cool@5.17.0:
+    resolution: {integrity: sha512-KRWcqtLInYRftZ5fajb5PZPNHREgl273I2fKp2FMB0p2ldCsIX/xIalBf/sps84vtplj0uvO920Ab9xUgHb4yA==}
     engines: {node: '>=12.20'}
     dependencies:
       await-to-done: 1.0.2
@@ -8177,7 +8177,7 @@ packages:
       jsesc: 0.5.0
     dev: true
 
-  /reinstaller@3.0.2(debug@4.3.4)(js-cool@5.16.0)(typescript@5.3.3):
+  /reinstaller@3.0.2(debug@4.3.4)(js-cool@5.17.0)(typescript@5.3.3):
     resolution: {integrity: sha512-VLjzE9tQMghK53x1Ccx96AEdRRe+dKq5zsnSNFLf1d7QsLAaRV0yX3lU1djgIaPYNSjDOXBRXjt8Y/GFTrHt/A==}
     hasBin: true
     peerDependencies:
@@ -8191,7 +8191,7 @@ packages:
       cosmiconfig: 8.3.5(typescript@5.3.3)
       debug: 4.3.4
       global-modules: 2.0.0
-      js-cool: 5.16.0
+      js-cool: 5.17.0
       monorepo-root: 2.5.1
       ora: 6.3.1
       what-pm: 2.5.1
@@ -8299,7 +8299,7 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rm-all@1.1.1(js-cool@5.16.0):
+  /rm-all@1.1.1(js-cool@5.17.0):
     resolution: {integrity: sha512-5n3SiDtp0BxHX485YhfbxR1RLtR9KlRTCj0hHahTufYEhUyE9ydy1nRtP4OG9kXifsYClu43gwkqcOnjpz/HPQ==}
     engines: {node: '>=12.20'}
     hasBin: true
@@ -8308,7 +8308,7 @@ packages:
     dependencies:
       '@node-kit/extra.fs': 3.2.0
       commander: 11.0.0
-      js-cool: 5.16.0
+      js-cool: 5.17.0
     dev: true
 
   /rollup-plugin-external-globals@0.6.1(rollup@4.9.6):
