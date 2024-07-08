@@ -61,7 +61,7 @@
 		"@babel/preset-env": "^7.24.5",
 		"@babel/preset-typescript": "^7.24.1",
 		"@eslint-sets/eslint-config-vue3": "^5.13.0",
-		"@microsoft/api-extractor": "^7.43.4",
+		"@microsoft/api-extractor": "^7.47.0",
 		"@rollup/plugin-babel": "^6.0.4",
 		"@rollup/plugin-commonjs": "^25.0.7",
 		"@rollup/plugin-json": "^6.1.0",
