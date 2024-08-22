@@ -52,7 +52,7 @@
 		"prettier": "prettier --write \"**/*.{js,ts,jsx,tsx,yml,json,md}\""
 	},
 	"dependencies": {
-		"js-cool": "^5.19.1",
+		"js-cool": "^5.21.1",
 		"tslib": "^2.6.2",
 		"vue-demi": "^0.14.7"
 	},

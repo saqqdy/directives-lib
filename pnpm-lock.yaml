@@ -12,8 +12,8 @@ importers:
         specifier: '>=1.0.0'
         version: 1.7.2(vue@3.4.27(typescript@5.4.5))
       js-cool:
-        specifier: ^5.19.1
-        version: 5.19.1
+        specifier: ^5.21.1
+        version: 5.21.1
       tslib:
         specifier: ^2.6.2
         version: 2.6.2
@@ -107,10 +107,10 @@ importers:
         version: 1.4.0
       reinstaller:
         specifier: ^3.0.2
-        version: 3.0.2(debug@4.3.4)(js-cool@5.19.1)(typescript@5.4.5)
+        version: 3.0.2(debug@4.3.4)(js-cool@5.21.1)(typescript@5.4.5)
       rm-all:
         specifier: ^1.1.1
-        version: 1.1.1(js-cool@5.19.1)
+        version: 1.1.1(js-cool@5.21.1)
       rollup:
         specifier: ^4.18.0
         version: 4.18.0
@@ -2100,8 +2100,8 @@ packages:
     resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
     engines: {node: '>= 0.4'}
 
-  await-to-done@1.0.2:
-    resolution: {integrity: sha512-izPKtGYvcV41nmdznVgrvgiEodzz3i3qe7IzkVC4VUjlKFxHQ2R2EYrHKIZCAWTYxOfs5gwgmTZWfV0sqvLieQ==}
+  await-to-done@1.1.1:
+    resolution: {integrity: sha512-55RMMm59luT0pyhToSn0QTioZNkljs7EkxdtlaPU+cgUzz+Jh4P0+h8iXYCunBBWchtqIVutJXxuF8IYctTfhA==}
 
   aws-sign2@0.7.0:
     resolution: {integrity: sha512-08kcGqnYf/YmjoRhfxyu+CLxBjUtHLXLXX/vUfx9l2LYzG3c1m61nrpyFUZI6zeS+Li/wWMMidD9KgrqtGq3mA==}
@@ -3684,8 +3684,8 @@ packages:
     resolution: {integrity: sha512-8H3rUxI9xNCkSFGMsBCcmiMQtrSZsGG4hjNYAZUta/xKvjtHboPPDEGw4TxaLU3x7zxj2akvjlPFm5Ki+Om5EA==}
     engines: {node: '>=12.20'}
 
-  js-cool@5.19.1:
-    resolution: {integrity: sha512-43IznUCH3JBkUZyIRH733tz008WqFFA0sJUq78eKc6fYmW5PELBawagD1ZbD1pwIYXtTdK+FYpNwt+A6Db3o3Q==}
+  js-cool@5.21.1:
+    resolution: {integrity: sha512-hbzEy+pICIHMICVXNdujfkelQlmhoNbWH2M6vbx+aiyBOkhsujqBBQC+fmkIvX2gmK38XH+oSn6z+PAsGzzErQ==}
     engines: {node: '>=12.20'}
 
   js-tokens@4.0.0:
@@ -7683,7 +7683,7 @@ snapshots:
 
   available-typed-arrays@1.0.5: {}
 
-  await-to-done@1.0.2:
+  await-to-done@1.1.1:
     dependencies:
       tslib: 2.6.2
 
@@ -9597,9 +9597,9 @@ snapshots:
       mount-style: 1.2.0
       use-downloads: 1.5.1
 
-  js-cool@5.19.1:
+  js-cool@5.21.1:
     dependencies:
-      await-to-done: 1.0.2
+      await-to-done: 1.1.1
       load-source: 1.2.0
       mount-css: 1.2.0
       mount-image: 1.2.0
@@ -10503,7 +10503,7 @@ snapshots:
     dependencies:
       jsesc: 0.5.0
 
-  reinstaller@3.0.2(debug@4.3.4)(js-cool@5.19.1)(typescript@5.4.5):
+  reinstaller@3.0.2(debug@4.3.4)(js-cool@5.21.1)(typescript@5.4.5):
     dependencies:
       '@node-kit/extra.fs': 2.5.1
       commander: 10.0.1
@@ -10512,7 +10512,7 @@ snapshots:
       cosmiconfig: 8.3.5(typescript@5.4.5)
       debug: 4.3.4
       global-modules: 2.0.0
-      js-cool: 5.19.1
+      js-cool: 5.21.1
       monorepo-root: 2.5.1
       ora: 6.3.1
       what-pm: 2.5.1
@@ -10585,11 +10585,11 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rm-all@1.1.1(js-cool@5.19.1):
+  rm-all@1.1.1(js-cool@5.21.1):
     dependencies:
       '@node-kit/extra.fs': 3.2.0
       commander: 11.0.0
-      js-cool: 5.19.1
+      js-cool: 5.21.1
 
   rollup-plugin-external-globals@0.10.0(rollup@4.18.0):
     dependencies:
