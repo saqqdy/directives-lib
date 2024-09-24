@@ -15,8 +15,8 @@ importers:
         specifier: ^5.21.1
         version: 5.21.1
       tslib:
-        specifier: ^2.6.2
-        version: 2.6.2
+        specifier: ^2.7.0
+        version: 2.7.0
       vue-demi:
         specifier: ^0.14.7
         version: 0.14.7(@vue/composition-api@1.7.2(vue@3.4.27(typescript@5.4.5)))(vue@3.4.27(typescript@5.4.5))
@@ -53,7 +53,7 @@ importers:
         version: 0.4.4(rollup@4.18.0)
       '@rollup/plugin-typescript':
         specifier: ^11.1.6
-        version: 11.1.6(rollup@4.18.0)(tslib@2.6.2)(typescript@5.4.5)
+        version: 11.1.6(rollup@4.18.0)(tslib@2.7.0)(typescript@5.4.5)
       '@types/jest':
         specifier: ^29.5.12
         version: 29.5.12
@@ -5048,8 +5048,8 @@ packages:
   tsconfig-paths@3.15.0:
     resolution: {integrity: sha512-2Ac2RgzDe/cn48GvOe3M+o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf/Ux5kATBKN20oaFGu+jbElp1pos0mg==}
 
-  tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+  tslib@2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   tsnd@1.1.0:
     resolution: {integrity: sha512-sc+Xm5uxwfMlYCjLkwP9i7+9uC4izAo8N/opmdzR+RHtE/XTEfUV8r5FI3oh6RdcMybNHD0DTGultnzrJfcirQ==}
@@ -7139,14 +7139,14 @@ snapshots:
     optionalDependencies:
       rollup: 4.18.0
 
-  '@rollup/plugin-typescript@11.1.6(rollup@4.18.0)(tslib@2.6.2)(typescript@5.4.5)':
+  '@rollup/plugin-typescript@11.1.6(rollup@4.18.0)(tslib@2.7.0)(typescript@5.4.5)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
       resolve: 1.22.4
       typescript: 5.4.5
     optionalDependencies:
       rollup: 4.18.0
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   '@rollup/pluginutils@4.2.1':
     dependencies:
@@ -7890,7 +7890,7 @@ snapshots:
 
   await-to-done@1.1.1:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   aws-sign2@0.7.0: {}
 
@@ -8085,7 +8085,7 @@ snapshots:
   camel-case@4.1.2:
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   camelcase@5.3.1: {}
 
@@ -8100,7 +8100,7 @@ snapshots:
   capital-case@1.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
       upper-case-first: 2.0.2
 
   caseless@0.12.0: {}
@@ -8131,7 +8131,7 @@ snapshots:
       path-case: 3.0.4
       sentence-case: 3.0.4
       snake-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   char-regex@1.0.2: {}
 
@@ -8216,7 +8216,7 @@ snapshots:
   constant-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
       upper-case: 2.0.2
 
   convert-source-map@1.9.0: {}
@@ -8379,7 +8379,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   duplexer@0.1.1: {}
 
@@ -9216,7 +9216,7 @@ snapshots:
   header-case@2.0.4:
     dependencies:
       capital-case: 1.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   hookable@5.5.3: {}
 
@@ -9824,7 +9824,7 @@ snapshots:
       mount-script: 1.2.0
       mount-style: 1.2.0
       os-lang: 3.2.0
-      tslib: 2.6.2
+      tslib: 2.7.0
       use-downloads: 1.5.1
 
   js-tokens@4.0.0: {}
@@ -9916,7 +9916,7 @@ snapshots:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.6.2
+      tslib: 2.7.0
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.11
@@ -9955,7 +9955,7 @@ snapshots:
     dependencies:
       '@types/js-yaml': 4.0.5
       js-yaml: 4.1.0
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   local-pkg@0.5.0:
     dependencies:
@@ -9989,7 +9989,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   lru-cache@10.0.1: {}
 
@@ -10215,7 +10215,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   node-domexception@1.0.0: {}
 
@@ -10455,7 +10455,7 @@ snapshots:
   param-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   parent-module@1.0.1:
     dependencies:
@@ -10487,14 +10487,14 @@ snapshots:
   pascal-case@3.1.2:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   path-browserify@1.0.1: {}
 
   path-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   path-exists@4.0.0: {}
 
@@ -10912,7 +10912,7 @@ snapshots:
   sentence-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
       upper-case-first: 2.0.2
 
   serialize-javascript@6.0.1:
@@ -10978,7 +10978,7 @@ snapshots:
   snake-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   socks-proxy-agent@7.0.0:
     dependencies:
@@ -11163,12 +11163,12 @@ snapshots:
 
   synckit@0.6.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   synckit@0.8.8:
     dependencies:
       '@pkgr/core': 0.1.1
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   tabbable@6.2.0: {}
 
@@ -11245,7 +11245,7 @@ snapshots:
       minimist: 1.2.8
       strip-bom: 3.0.0
 
-  tslib@2.6.2: {}
+  tslib@2.7.0: {}
 
   tsnd@1.1.0:
     dependencies:
@@ -11386,11 +11386,11 @@ snapshots:
 
   upper-case-first@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   upper-case@2.0.2:
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   uri-js@4.4.1:
     dependencies:
